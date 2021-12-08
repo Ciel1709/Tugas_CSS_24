@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS - Niomic</title>
+    <!-- Offline File -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <form action="">
+        <div class="mb-3">
+            <label for="nama" class="form-label fw-bold">Nama Lengkap</label>
+            <input type="text" class="form-control" id="nama" placeholder="Nama Lengkap">
+        </div>
+        <div class="mb-3">
+            <label for="alamat" class="form-label fw-bold">Alamat Rumah</label>
+            <textarea name="alamat" id="alamat" cols="10" rows="4" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="foto" class="form-label fw-bold">Foto Profil</label>
+            <input type="file" class="form-control" id="file">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label fw-bold">Alamat Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Alamat Email">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label fw-bold">Kata Sandi</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <div class="mb-3">
+            <label for="" class="fw-bold me-3">Jenis Kendaraan Anda: </label>
+                <input class="form-check-input" type="radio" id="motor" name="kendaraan">
+                <label class="form-check-label me-3" for="motor">
+                    Motor
+                </label>    
+                <input class="form-check-input" type="radio" id="mobil" name="kendaraan">
+                <label class="form-check-label" for="mobil">
+                    Mobil
+                </label>
+        </div>
+        <button type="submit" class="btn btn-primary"> Register </button>
+    </form>
+</body>
+</html>
